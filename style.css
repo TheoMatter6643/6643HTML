@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "DM Sans Variable", sans-serif;
+    text-align: center;
+    background-color: #d1d1d1;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    color: #4B3995;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 600px;
+    height: auto;
+    border-radius: 20px;
+    display: block;        /* removes white gap under images */
+    margin: 0 auto 20px;   /* centers image + spacing */
+    padding: 10px;
+}
+
+a {
+    color: #4B3995;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
