@@ -48,7 +48,6 @@ a:hover {
 .column {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 50px;
     max-width: 1500px;
     margin: 4rem auto;
     padding: 0 40px;
