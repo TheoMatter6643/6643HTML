@@ -67,9 +67,6 @@ a:hover {
 
 
 .column-text {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
     text-align: left;
     font-weight: normal;
 }
