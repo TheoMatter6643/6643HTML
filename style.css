@@ -56,12 +56,9 @@ a:hover {
 }
 
 .column img {
-    width: 100%;
-    max-width: 560px;
-    height: 350px;
+    width: 600px;
+    height: auto;
     object-fit: cover;
-    background: #d9d9d9;
-    border-radius: 12px;
 }
 
 
