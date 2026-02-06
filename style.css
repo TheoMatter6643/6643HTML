@@ -50,7 +50,7 @@ a:hover {
 }
     
 @media (min-width: 1024px) {
-    .hero {
+    .column {
         grid-template-columns: 1fr 1fr;
     }
 }
