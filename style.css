@@ -39,11 +39,13 @@ img {
 
 a {
     color: #FFFFFF;
+    font-size: 1em
     text-decoration: none;
     font-weight: normal;
 }
 
 a:hover {
+    font-size: 1.15em
     color: #e5e5e5;
     text-decoration: underline;
     font-weight: bold;
@@ -52,7 +54,7 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr;
     max-width: 1500px;
-    margin: 4rem auto;
+    margin: 64px auto;
     padding: 0 40px;
     align-items: start;
 }
