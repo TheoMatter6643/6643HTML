@@ -38,13 +38,15 @@ img {
 }
 
 a {
-    color: #4B3995;
+    color: #FFFFFF;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 a:hover {
+    color: #e5e5e5;
     text-decoration: underline;
+    font-weight: bold;
 }
 .column {
     display: grid;
