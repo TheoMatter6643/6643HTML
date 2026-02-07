@@ -39,13 +39,13 @@ img {
 
 a {
     color: #FFFFFF;
-    font-size: 1em
+    font-size: 1em;
     text-decoration: none;
     font-weight: normal;
 }
 
 a:hover {
-    font-size: 1.15em
+    font-size: 1.15em;
     color: #e5e5e5;
     text-decoration: underline;
     font-weight: bold;
