@@ -76,3 +76,22 @@ a:hover {
     text-align: left;
     font-weight: normal;
 }
+
+header {
+    background-color: #4b3995;
+    padding: 25px;
+    display: flex;
+    width: 1240px;
+    margin-top: -20px;
+    margin-left: -25px;
+}
+
+header a {
+    padding: 0 12px;
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
