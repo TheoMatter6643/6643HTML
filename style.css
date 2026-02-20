@@ -82,7 +82,7 @@ header {
     padding: 25px;
     display: flex;
     width: 1240px;
-    margin: -20px, 25px, 0px, -25px;
+    margin: -20px, 25px, 0px, 25px;
 }
 
 header a {
