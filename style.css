@@ -82,12 +82,11 @@ header {
     padding: 25px;
     display: flex;
     width: 1240px;
-    margin-top: -20px;
-    margin-left: -25px;
+    margin: -20px, 25px, 0px, -25px;
 }
 
 header a {
-    padding: 0 -12px;
+    padding: 0 12px;
     color: white;
     text-decoration: none;
 }
