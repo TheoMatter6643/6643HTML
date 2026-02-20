@@ -82,7 +82,9 @@ header {
     padding: 25px;
     display: flex;
     width: 1240px;
-    margin: -20px, 25px, 0px, 25px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 header a {
