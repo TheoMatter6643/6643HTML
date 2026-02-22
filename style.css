@@ -79,9 +79,9 @@ a:hover {
 
 header {
     background-color: #4b3995;
-    padding: 25px;
+    padding: 30px;
     display: flex;
-    width: 1240px;
+    width: 1500px;
     position: sticky;
     top: 0;
     z-index: 1000;
