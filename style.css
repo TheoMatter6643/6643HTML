@@ -29,7 +29,7 @@ h3, h4, h5, h6, p {
 }
 
 img {
-    width: 100%;
+    width: 600px;
     height: auto;
     border-radius: 20px;
     display: block;
@@ -51,7 +51,6 @@ a:hover {
 .column {
     display: grid;
     grid-template-columns: 1fr;
-    max-width: 1440px;
     margin: 64px auto;
     padding: 0 40px;
     align-items: start;
@@ -94,6 +93,7 @@ header a {
     padding: 0 12px;
     color: white;
     text-decoration: none;
+    text-align: left;
 }
 
 header a:hover {
