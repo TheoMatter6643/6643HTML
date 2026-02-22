@@ -29,7 +29,7 @@ h3, h4, h5, h6, p {
 }
 
 img {
-    width: 600px;
+    width: 100%;
     height: auto;
     border-radius: 20px;
     display: block;
@@ -66,7 +66,7 @@ a:hover {
 }
 
 .column img {
-    width: 600px;
+    width: 100%;
     height: auto;
     object-fit: cover;
 }
@@ -81,7 +81,7 @@ header {
     background-color: #4b3995;
     padding: 30px;
     display: flex;
-    width: 1440px;
+    width: 100%;
     position: sticky;
     top: 0;
     z-index: 1000;
