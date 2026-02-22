@@ -47,13 +47,11 @@ a {
 a:hover {
     font-size: 1.15em;
     color: #e5e5e5;
-    text-decoration: underline;
-    font-weight: bold;
 }
 .column {
     display: grid;
     grid-template-columns: 1fr;
-    max-width: 1500px;
+    max-width: 1440px;
     margin: 64px auto;
     padding: 0 40px;
     align-items: start;
@@ -81,10 +79,13 @@ header {
     background-color: #4b3995;
     padding: 30px;
     display: flex;
-    width: 1500px;
+    width: 1440px;
     position: sticky;
     top: 0;
     z-index: 1000;
+    margin-top: -20px;
+    margin-left: 70px;
+    height: 20px;
 }
 
 header a {
@@ -94,5 +95,14 @@ header a {
 }
 
 header a:hover {
-    text-decoration: underline;
+    background-color: #4b3995;
+    padding: 30px;
+    display: flex;
+    width: 1440px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    margin-top: -20px;
+    margin-left: 70px;
+    height: 20px;
 }
