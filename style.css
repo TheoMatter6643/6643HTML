@@ -87,6 +87,7 @@ header {
     margin-top: -20px;
     margin-left: 70px;
     height: 20px;
+    border-radius: 20px;
 }
 
 header a {
