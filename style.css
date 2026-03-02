@@ -115,7 +115,7 @@ header a:hover {
   padding: 20px;
 }
 
-.text body {
+text body {
     font-family:"Lucida Console", monospace;
     text-align: left;
     background-color: #f9f0ff;
@@ -123,24 +123,24 @@ header a:hover {
     text-rendering: optimizeLegibility;
 }
 
-.text h1 {
+text h1 {
     font-size: 64px;
     margin-bottom: 20px;
     text-align: left;
 }
-.text h2 {
+text h2 {
     font-size: 24px;
     color: black;
     text-align: left;
 }
-.text h3, h4, h5, h6, p {
+text h3, h4, h5, h6, p {
     font-size: 12px;
     margin-bottom: 20px;
     text-align: left;
     line-height: 2
 }
 
-.text img {
+text img {
     width: 600px;
     height: auto;
     border-radius: 20px;
@@ -149,14 +149,14 @@ header a:hover {
     padding: 10px;
 }
 
-.text {
+text {
     color: #FFFFFF;
     font-size: 16px;
     text-decoration: none;
     font-weight: normal;
 }
 
-.text a:hover {
+text a:hover {
     font-size: 20px;
     color: #e5e5e5;
 }
