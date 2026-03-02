@@ -104,3 +104,13 @@ header a:hover {
     color: #e5e5e5;
     font-size: 20px;
 }
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
