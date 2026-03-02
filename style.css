@@ -114,3 +114,49 @@ header a:hover {
   margin: 0 auto;
   padding: 20px;
 }
+
+.text body {
+    font-family:"Lucida Console", monospace;
+    text-align: left;
+    background-color: #f9f0ff;
+    padding: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.text h1 {
+    font-size: 64px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.text h2 {
+    font-size: 24px;
+    color: black;
+    text-align: left;
+}
+.text h3, h4, h5, h6, p {
+    font-size: 12px;
+    margin-bottom: 20px;
+    text-align: left;
+    line-height: 2
+}
+
+.text img {
+    width: 600px;
+    height: auto;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px;
+}
+
+.text {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.text a:hover {
+    font-size: 20px;
+    color: #e5e5e5;
+}
