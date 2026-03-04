@@ -40,13 +40,11 @@ img {
 
 a {
     color: #FFFFFF;
-    font-size: 16px;
     text-decoration: none;
     font-weight: normal;
 }
 
 a:hover {
-    font-size: 20px;
     color: #e5e5e5;
 }
 .column {
