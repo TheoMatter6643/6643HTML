@@ -1,124 +1,123 @@
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* Body */
 body {
-    font-family:"Lucida Console", monospace;
-    text-align: left;
-    background-color: #f9f0ff;
-    padding: 20px;
-    text-rendering: optimizeLegibility;
+  font-family: "Lucida Console", monospace;
+  background-color: #f9f0ff;
+  padding: 20px;
+  text-rendering: optimizeLegibility;
+  text-align: left;
 }
 
+/* Headings & Text */
 h1 {
-    font-size: 64px;
-    margin-bottom: 20px;
-    text-align: left;
+  font-size: 64px;
+  margin-bottom: 20px;
 }
+
 h2 {
-    font-size: 24px;
-    color: black;
-    text-align: left;
+  font-size: 24px;
+  color: black;
 }
+
 h3, h4, h5, h6, p {
-    font-size: 12px;
-    margin-bottom: 20px;
-    text-align: left;
-    line-height: 2
+  font-size: 12px;
+  margin-bottom: 20px;
+  line-height: 2;
 }
 
+/* Images */
 img {
-    width: 600px;
-    height: auto;
-    border-radius: 20px;
-    display: block;
-    margin: 0 auto 20px;
-    padding: 10px;
+  width: 600px;
+  height: auto;
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto 20px;
+  padding: 10px;
 }
 
+/* Links */
 a {
-    color: #FFFFFF;
-    text-decoration: none;
-    font-weight: normal;
-    font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: normal;
+  transition: 0.2s ease;
 }
 
 a:hover {
-    color: #e5e5e5;
-    font-size: 18px;
+  color: #e5e5e5;
 }
+
+/* Column Layout */
 .column {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 64px auto;
-    padding: 0 40px;
-    align-items: start;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 64px auto;
+  padding: 0 40px;
+  align-items: start;
 }
-    
+
 @media (min-width: 600px) {
-    .column {
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
-        gap: 10px;
-    }
+  .column {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+  }
 }
 
 .column img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
-
 
 .column-text {
-    text-align: left;
-    font-weight: normal;
+  text-align: left;
+  font-weight: normal;
 }
 
-/* Header container */
+/* Modern Purple Header */
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #f0f0f0;
+  background-color: #4b3995;
   height: 90px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 16px 24px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.25);
 }
 
 /* Logo */
 header img {
-  height: 80px;
-  width: 80px;
-  margin-left: -20px;
-  margin-top: -30px;  
+  height: 70px;
+  width: 70px;
 }
 
-/* Navigation container */
+/* Navigation */
 header nav {
   display: flex;
   gap: 32px;
 }
 
-/* Navigation links */
 header nav a {
-  text-decoration: none;
-  color: black;
-  font-size: 18px;
-  transition: 0.2s ease;
-  padding: 10px;
+  color: #ffffff;
+  padding: 6px 10px;
   border-radius: 6px;
-  margin-left: 35px;  
+  transition: 0.2s ease;
 }
 
-/* Hover effect */
 header nav a:hover {
-  background-color: #e5e5e5;
+  background-color: #6a56c7;
   transform: scale(1.08);
 }
 
-
+/* Text Block Layout */
 .text {
   display: flex;
   flex-direction: column;
@@ -127,50 +126,4 @@ header nav a:hover {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 0 20px 20px;
-}
-
-text body {
-    font-family:"Lucida Console", monospace;
-    text-align: left;
-    background-color: #f9f0ff;
-    padding: 20px;
-    text-rendering: optimizeLegibility;
-}
-
-text h1 {
-    font-size: 64px;
-    margin-bottom: 20px;
-    text-align: left;
-}
-text h2 {
-    font-size: 24px;
-    color: black;
-    text-align: left;
-}
-text h3, h4, h5, h6, p {
-    font-size: 12px;
-    margin-bottom: 20px;
-    text-align: left;
-    line-height: 2
-}
-
-text img {
-    width: 600px;
-    height: auto;
-    border-radius: 20px;
-    display: block;
-    margin: 0 auto 20px;
-    padding: 10px;
-}
-
-text {
-    color: #FFFFFF;
-    font-size: 16px;
-    text-decoration: none;
-    font-weight: normal;
-}
-
-text a:hover {
-    font-size: 20px;
-    color: #e5e5e5;
 }
