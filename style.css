@@ -93,14 +93,14 @@ header a {
     padding: 0 12px;
     color: white;
     text-decoration: none;
-    text-size: 18px;
+    font-size: 18px;
     text-align: left;
     margin-left: 75px;
 }
 
 header a:hover {
     color: #e5e5e5;
-    text-size: 18px;
+    font-size: 18px;
 }
 
 .text {
