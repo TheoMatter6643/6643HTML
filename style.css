@@ -141,6 +141,8 @@ footer p {
 footer img {
   width: 100px;
   height: 100px;
+  margin-top: -180px;
+  margin-left: 0px;
 }
 
 /* Text Block Layout */
@@ -152,4 +154,13 @@ footer img {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 0 20px 20px;
+}
+
+.stack {
+  display: grid;
+}
+
+.stack h3,
+.stack p {
+  grid-area: 1 / 1;
 }
