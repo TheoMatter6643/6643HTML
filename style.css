@@ -173,12 +173,12 @@ footer > img {
   left: 0;
   width: 100px;
   height: 100px;
-  transition: transform 1s linear; /* controls duration */
+  transition: transform 2s linear; /* controls duration */
 }
 
 /* Spin on hover */
 .img-stack:hover .spin {
-  transform: rotate(720deg);
+  transform: rotate(360deg);
 }
 
 
