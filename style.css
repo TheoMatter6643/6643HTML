@@ -118,7 +118,7 @@ header nav a {
 }
 
 header nav a:hover {
-  background-color: #A08FF4;
+  background-color: #A08FFF;
   transform: scale(1.08);
 }
 footer {
