@@ -45,13 +45,14 @@ img {
 a {
   color: #7F6EE8;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: normal;
   transition: 0.2s ease;
 }
 
 a:hover {
   color: #A08FFF;
+  font-size: 16px;
 }
 
 /* Column Layout */
