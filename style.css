@@ -137,6 +137,10 @@ footer p {
   font-size: 16px;
   color: #FFFFFF;
 }
+footer img {
+  width: 100px;
+  height: 100px;
+}
 
 /* Text Block Layout */
 .text {
