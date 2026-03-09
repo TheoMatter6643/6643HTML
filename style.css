@@ -118,6 +118,7 @@ header nav a {
 }
 
 header nav a:hover {
+  color: #ffffff;
   background-color: #A08FFF;
   transform: scale(1.08);
 }
@@ -153,11 +154,10 @@ footer > img {
 /* Container holds the stacked images */
 .img-stack {
   position: relative;
-  width: 100px;   /* match your image size */
+  width: 100px;
   height: 100px;
 }
 
-/* Base image (does not move) */
 .img-stack .base {
   position: absolute;
   top: 0;
@@ -166,7 +166,6 @@ footer > img {
   height: 100px;
 }
 
-/* Outer image that spins */
 .img-stack .spin {
   position: absolute;
   top: 0;
