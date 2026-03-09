@@ -229,3 +229,11 @@ footer > img {
 .iron-bolt {
   background-color: #ffffff;
 }
+
+.sponsor-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-top: 40px;
+}
