@@ -193,3 +193,39 @@ footer > img {
   margin: 0 auto;
   padding: 0 0 20px 20px;
 }
+
+.sponsor-box {
+  width: 300px;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin: 20px;
+}
+
+.platinum-bolt {
+  background-color: #afdfff;
+}
+
+.zirconium-bolt {
+  background-color: #fff7af;
+}
+
+.titanium-bolt {
+  background-color: #929292;
+}
+
+.silver-bolt {
+  background-color: #d8d8d8;
+}
+
+.chromium-bolt {
+  background-color: #eeeeee;
+}
+
+.iron-bolt {
+  background-color: #ffffff;
+}
