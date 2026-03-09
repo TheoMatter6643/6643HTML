@@ -16,8 +16,8 @@ body {
 
 /* Headings & Text */
 h1 {
-  font-size: 64px;
-  margin-bottom: 20px;
+  font-size: 40px;
+  margin-bottom: 10px;
 }
 
 h2 {
@@ -26,9 +26,10 @@ h2 {
 }
 
 h3, h4, h5, h6, p {
-  font-size: 12px;
+  font-size: 14px;
   margin-bottom: 20px;
   line-height: 2;
+  text-align: center;
 }
 
 /* Images */
@@ -44,7 +45,7 @@ img {
 a {
   color: #7F6EE8;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: normal;
   transition: 0.2s ease;
 }
