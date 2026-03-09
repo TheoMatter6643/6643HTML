@@ -1,5 +1,3 @@
-/* Reset */
-* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -64,11 +62,54 @@ a:hover {
   align-items: start;
 }
 
-@media (min-width: 600px) {
-  .column {
-    grid-template-columns: 1fr 1fr;
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  /* Header becomes vertical */
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 0;
     gap: 10px;
-    align-items: center;
+  }
+
+  header img {
+    width: 80px;
+    height: 80px;
+  }
+
+  header nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    translate: 0; /* removes desktop shift */
+  }
+
+  /* Sponsor boxes scale nicely */
+  .sponsor-box {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+  }
+
+  /* Footer stacks vertically */
+  footer {
+    flex-direction: column;
+    height: auto;
+    padding: 40px 0;
+    gap: 20px;
+  }
+
+  .img-stack {
+    margin: 0;
+  }
+
+  /* Text block spacing */
+  .text {
+    padding: 0 10px;
+    text-align: center;
   }
 }
 
@@ -83,7 +124,6 @@ a:hover {
   font-weight: normal;
 }
 
-/* Header */
 header {
   display: flex;
   align-items: center;
@@ -95,6 +135,7 @@ header {
   margin-bottom: 50px;
 }
 
+/* Logo */
 header img {
   height: 100px;
   width: 100px;
@@ -120,8 +161,6 @@ header nav a:hover {
   background-color: #A08FFF;
   transform: scale(1.08);
 }
-
-/* Footer */
 footer {
   display: flex;
   align-items: center;
@@ -133,29 +172,24 @@ footer {
   border-radius: 20px;
   margin-top: 60px;
 }
-
 footer h3 {
   font-size: 20px;
   color: #5A4F7A;
 }
-
 footer h4 {
   font-size: 16px;
   color: #8A7BAF;
 }
-
 .footer-text {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-
 footer > img {
   width: 100px;
   height: 100px;
 }
-
-/* Spinning Gear */
+/* Container holds the stacked images */
 .img-stack {
   position: relative;
   width: 100px;
@@ -164,7 +198,14 @@ footer > img {
   margin-left: 10px;
 }
 
-.img-stack .base,
+.img-stack .base {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+}
+
 .img-stack .spin {
   position: absolute;
   top: 0;
@@ -182,6 +223,8 @@ footer > img {
   to   { transform: rotate(360deg); }
 }
 
+
+
 /* Text Block Layout */
 .text {
   display: flex;
@@ -193,78 +236,53 @@ footer > img {
   padding: 0 0 20px 20px;
 }
 
-/* Sponsor Boxes */
 .sponsor-box {
   width: 80%;
   max-width: 600px;
-  padding: 24px;
-  border-radius: 16px;
+  padding: 30px;
+  border-radius: 20px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 16px;
-  margin: 20px auto;
 }
 
 .sponsor-box img {
   width: 100%;
   height: auto;
-  border-radius: 12px;
+  border-radius: 10px;
 }
 
-/* Sponsor Tier Colors */
-.platinum-bolt { background-color: #afdfff; }
-.zirconium-bolt { background-color: #fff7af; }
-.titanium-bolt { background-color: #929292; }
-.silver-bolt { background-color: #d8d8d8; }
-.chromium-bolt { background-color: #eeeeee; }
-.iron-bolt { background-color: #ffffff; }
+.sponsor-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-top: 40px;
+}
 
-/* Mobile Layout */
-@media (max-width: 600px) {
-  body {
-    padding: 10px;
-  }
 
-  header {
-    flex-direction: column;
-    height: auto;
-    padding: 20px 0;
-    gap: 10px;
-  }
+.platinum-bolt {
+  background-color: #afdfff;
+}
 
-  header img {
-    width: 80px;
-    height: 80px;
-  }
+.zirconium-bolt {
+  background-color: #fff7af;
+}
 
-  header nav {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 16px;
-    translate: 0;
-  }
+.titanium-bolt {
+  background-color: #929292;
+}
 
-  .sponsor-box {
-    width: 100%;
-    max-width: 400px;
-    padding: 20px;
-  }
+.silver-bolt {
+  background-color: #d8d8d8;
+}
 
-  footer {
-    flex-direction: column;
-    height: auto;
-    padding: 40px 0;
-    gap: 20px;
-  }
+.chromium-bolt {
+  background-color: #eeeeee;
+}
 
-  .img-stack {
-    margin: 0;
-  }
-
-  .text {
-    padding: 0 10px;
-    text-align: center;
-  }
+.iron-bolt {
+  background-color: #ffffff;
 }
