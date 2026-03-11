@@ -28,12 +28,26 @@
  <div class="img-stack">
   <img src="Photos/6643Gear2.png" class="spin" alt="Gear">
   <img src="Photos/6643Logo2.png" class="base" alt="Team Logo">
+  <img src="Photos/6643Gear2.png" class="gear">
+  <img src="Photos/6643Gear2.png" class="gear reverse">
+
  </div>
   <div class="footer-text">
   <h3 style="margin-top: -123px; margin-right: 900px;">Walnuts and Bolts</h3>
   <h4 style="margin-top: -30px; margin-left: 0px;">Team 6643</h4>
   </div>
 </footer>
+<script>
+const logo = document.querySelector('.img-stack');
+
+logo.addEventListener('mouseenter', () => {
+  document.body.classList.add('logo-hover');
+});
+
+logo.addEventListener('mouseleave', () => {
+  document.body.classList.remove('logo-hover');
+});
+</script>
 </body>
 </html>
 
