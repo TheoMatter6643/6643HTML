@@ -150,6 +150,7 @@ footer > img {
   position: relative;
   width: 100px;
   height: 100px;
+  margin-top: -60px;
 }
 
 .img-stack .base {
@@ -166,14 +167,15 @@ footer > img {
   left: 0;
   width: 100px;
   height: 100px;
-  transition: transform 2s linear; /* controls duration */
 }
-
 /* Spin on hover */
 .img-stack:hover .spin {
-  transform: rotate(360deg);
+  animation: spin 2s linear infinite;
 }
-
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
 
 /* Text Block Layout */
 .text {
