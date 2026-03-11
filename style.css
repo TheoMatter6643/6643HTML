@@ -1,3 +1,4 @@
+{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -14,8 +15,8 @@ body {
 
 /* Headings & Text */
 h1 {
-  font-size: 40px;
-  margin-bottom: 10px;
+  font-size: 64px;
+  margin-bottom: 20px;
 }
 
 h2 {
@@ -24,10 +25,9 @@ h2 {
 }
 
 h3, h4, h5, h6, p {
-  font-size: 14px;
+  font-size: 12px;
   margin-bottom: 20px;
   line-height: 2;
-  text-align: center;
 }
 
 /* Images */
@@ -43,7 +43,7 @@ img {
 a {
   color: #7F6EE8;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: normal;
   transition: 0.2s ease;
 }
@@ -62,54 +62,11 @@ a:hover {
   align-items: start;
 }
 
-@media (max-width: 600px) {
-  body {
-    padding: 10px;
-  }
-
-  /* Header becomes vertical */
-  header {
-    flex-direction: column;
-    height: auto;
-    padding: 20px 0;
+@media (min-width: 600px) {
+  .column {
+    grid-template-columns: 1fr 1fr;
     gap: 10px;
-  }
-
-  header img {
-    width: 80px;
-    height: 80px;
-  }
-
-  header nav {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 16px;
-    translate: 0; /* removes desktop shift */
-  }
-
-  /* Sponsor boxes scale nicely */
-  .sponsor-box {
-    width: 100%;
-    max-width: 400px;
-    padding: 20px;
-  }
-
-  /* Footer stacks vertically */
-  footer {
-    flex-direction: column;
-    height: auto;
-    padding: 40px 0;
-    gap: 20px;
-  }
-
-  .img-stack {
-    margin: 0;
-  }
-
-  /* Text block spacing */
-  .text {
-    padding: 0 10px;
-    text-align: center;
+    align-items: center;
   }
 }
 
@@ -152,12 +109,11 @@ header nav a {
   padding: 6px 10px;
   border-radius: 6px;
   transition: 0.2s ease;
-  translate: -600px;
-  font-size: 16px;
+  translate: -700px;
 }
 
 header nav a:hover {
-  color: #eeeeee;
+  color: #ffffff;
   background-color: #A08FFF;
   transform: scale(1.08);
 }
@@ -170,7 +126,6 @@ footer {
   width: 100%;
   box-shadow: 0 2px 6px rgba(0,0,0,0.25);
   border-radius: 20px;
-  margin-top: 60px;
 }
 footer h3 {
   font-size: 20px;
@@ -194,8 +149,6 @@ footer > img {
   position: relative;
   width: 100px;
   height: 100px;
-  margin-top: -182px;
-  margin-left: 10px;
 }
 
 .img-stack .base {
@@ -212,17 +165,13 @@ footer > img {
   left: 0;
   width: 100px;
   height: 100px;
+  transition: transform 2s linear; /* controls duration */
 }
 
+/* Spin on hover */
 .img-stack:hover .spin {
-  animation: spin 2s linear infinite;
+  transform: rotate(360deg);
 }
-
-@keyframes spin {
-  from { transform: rotate(0deg); }
-  to   { transform: rotate(360deg); }
-}
-
 
 
 /* Text Block Layout */
@@ -234,55 +183,4 @@ footer > img {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 0 20px 20px;
-}
-
-.sponsor-box {
-  width: 80%;
-  max-width: 600px;
-  padding: 30px;
-  border-radius: 20px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
-}
-
-.sponsor-box img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
-.sponsor-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 30px;
-  margin-top: 40px;
-}
-
-
-.platinum-bolt {
-  background-color: #afdfff;
-}
-
-.zirconium-bolt {
-  background-color: #fff7af;
-}
-
-.titanium-bolt {
-  background-color: #929292;
-}
-
-.silver-bolt {
-  background-color: #d8d8d8;
-}
-
-.chromium-bolt {
-  background-color: #eeeeee;
-}
-
-.iron-bolt {
-  background-color: #ffffff;
 }
