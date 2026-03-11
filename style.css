@@ -15,7 +15,7 @@ body {
 
 /* Headings & Text */
 h1 {
-  font-size: 64px;
+  font-size: 60px;
   margin-bottom: 20px;
 }
 
@@ -25,7 +25,7 @@ h2 {
 }
 
 h3, h4, h5, h6, p {
-  font-size: 12px;
+  font-size: 14px;
   margin-bottom: 20px;
   line-height: 2;
 }
@@ -43,14 +43,14 @@ img {
 a {
   color: #7F6EE8;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: normal;
   transition: 0.2s ease;
 }
 
 a:hover {
   color: #A08FFF;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 /* Column Layout */
@@ -94,8 +94,8 @@ header {
 
 /* Logo */
 header img {
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
 }
 
 /* Navigation */
@@ -126,6 +126,7 @@ footer {
   width: 100%;
   box-shadow: 0 2px 6px rgba(0,0,0,0.25);
   border-radius: 20px;
+  margin: 20px;
 }
 footer h3 {
   font-size: 20px;
