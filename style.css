@@ -176,6 +176,10 @@ footer > img {
   height: 100px;
   z-index: 1;
 }
+.gear-wrapper {
+  position: relative;
+  display: inline-block;
+}
 /* Spin on hover */
 .img-stack:hover .spin {
   animation: spin 2s linear infinite;
