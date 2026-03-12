@@ -163,6 +163,10 @@ footer > img {
   height: 100px;
 }
 
+.img-stack .base:hover {
+  cursor: url('Photos/Crank.png') 10 10, auto;
+  
+}
 .img-stack .spin {
   position: absolute;
   top: 0;
