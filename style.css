@@ -184,6 +184,7 @@ body.logo-hover .gear {
 }
 
 body.logo-hover .gear.reverse {
+  transform: rotate(20deg);
   animation: spin-reverse 2s linear infinite;
 }
 
