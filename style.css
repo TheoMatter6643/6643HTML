@@ -164,7 +164,7 @@ footer > img {
 }
 
 .img-stack .base:hover {
-  cursor: url('Photos/Crank.png') 10 10, auto;
+  cursor: url('Photos/Crank.png') 24 24, auto;
   
 }
 .img-stack .spin {
@@ -184,10 +184,12 @@ footer > img {
 }
 
 body.logo-hover .gear {
+  cursor: url('Photos/Crank.png') 24 24, auto;
   animation: spin 2s linear infinite;
 }
 
 body.logo-hover .gear.reverse {
+  cursor: url('Photos/Crank.png') 24 24, auto;
   transform: translate(var(--x), var(--y)) rotate(var(--angle));
   animation: spin-reverse 2s linear infinite;
 }
