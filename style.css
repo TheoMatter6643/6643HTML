@@ -177,7 +177,6 @@ footer > img {
   z-index: 1;
 }
 .img-stack:hover .spin {
-  cursor: url('Photos/crank.png') 24 24, auto;
   animation: spin 2s linear infinite;
 }
 .gear-wrapper {
