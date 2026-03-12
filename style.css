@@ -161,6 +161,7 @@ footer > img {
   left: 0;
   width: 100px;
   height: 100px;
+  z-index: 10;
 }
 
 .img-stack .base:hover {
@@ -173,6 +174,7 @@ footer > img {
   left: 0;
   width: 100px;
   height: 100px;
+  z-index: 1;
 }
 /* Spin on hover */
 .img-stack:hover .spin {
