@@ -195,7 +195,7 @@ body.logo-hover .gear {
 }
 
 body.logo-hover .gear.reverse {
-  cursor: url('Photos/Crank.png') 24 24, auto;
+  cursor: url('Photos/crank.png') 24 24, auto;
   transform: translate(var(--x), var(--y)) rotate(var(--angle));
   animation: spin-reverse 2s linear infinite;
 }
