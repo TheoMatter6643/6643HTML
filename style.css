@@ -164,7 +164,7 @@ footer > img {
   z-index: 10;
 }
 
-.img-stack .base:hover {
+.img-stack:hover .base {
   cursor: url('Photos/Crank.png') 24 24, auto;
   
 }
@@ -176,34 +176,18 @@ footer > img {
   height: 100px;
   z-index: 1;
 }
+.img-stack:hover .spin {
+  cursor: url('Photos/crank.png') 24 24, auto;
+  animation: spin 2s linear infinite;
+}
 .gear-wrapper {
   position: relative;
   display: inline-block;
-}
-/* Spin on hover */
-.img-stack:hover .spin {
-  animation: spin 2s linear infinite;
 }
 @keyframes spin {
   from { transform: rotate(0deg); }
   to   { transform: rotate(360deg); }
 }
-
-body.logo-hover .gear {
-  cursor: url('Photos/crank.png') 24 24, auto;
-  animation: spin 2s linear infinite;
-}
-
-body.logo-hover .gear.reverse {
-  transform: translate(var(--x), var(--y)) rotate(var(--angle));
-  animation: spin-reverse 2s linear infinite;
-}
-
-@keyframes spin-reverse {
-  from { transform: translate(var(--x), var(--y)) rotate(calc(var(--angle) + 0deg)); }
-  to   { transform: translate(var(--x), var(--y)) rotate(calc(var(--angle) + 360deg)); }
-}
-
 
 /* Text Block Layout */
 .text {
