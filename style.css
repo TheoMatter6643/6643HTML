@@ -184,13 +184,13 @@ body.logo-hover .gear {
 }
 
 body.logo-hover .gear.reverse {
-  transform: rotate(20deg);
+  transform: translate(var(--x), var(--y)) rotate(var(--angle));
   animation: spin-reverse 2s linear infinite;
 }
 
 @keyframes spin-reverse {
-  from { transform: rotate(0deg); }
-  to   { transform: rotate(-360deg); }
+  from { transform: translate(var(--x), var(--y)) rotate(calc(var(--angle) + 0deg)); }
+  to   { transform: translate(var(--x), var(--y)) rotate(calc(var(--angle) + 360deg)); }
 }
 
 
