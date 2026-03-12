@@ -155,6 +155,10 @@ footer > img {
   margin-top: -130px;
 }
 
+.img-stack:hover {
+  cursor: url('Photos/crank.png') 24 24, auto;
+}
+
 .img-stack .base {
   position: absolute;
   top: 0;
@@ -164,10 +168,6 @@ footer > img {
   z-index: 10;
 }
 
-.img-stack:hover .base {
-  cursor: url('Photos/crank.png') 24 24, auto;
-  
-}
 .img-stack .spin {
   position: absolute;
   top: 0;
