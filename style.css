@@ -189,6 +189,7 @@ footer > img {
 }
 
 .sponsor-box {
+  display: grid;
   border-radius: 20px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
   width: auto;
@@ -196,13 +197,14 @@ footer > img {
   text-align: center;
   margin: 0px;
   padding: 20px;
+  gap: 10px;
 }
 
 .sponsor-box h1 {
-  font-size: 25px;
+  font-size: 20px;
 }
 .sponsor-box h3 {
-  font-size: 20px;
+  font-size: 15px;
 }
 .platinum-bolt {
   background: #afdfff;
