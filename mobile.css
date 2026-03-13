@@ -1,0 +1,87 @@
+@media (max-width: 700px) {
+
+  /* Header */
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    gap: 10px;
+  }
+
+  header img {
+    height: 70px;
+    width: 70px;
+  }
+
+  header nav {
+    gap: 16px;
+    translate: 0; /* remove desktop shift */
+  }
+
+  /* Hero Section */
+  .column {
+    padding: 0 10px;
+    margin: 20px auto;
+  }
+
+  .column-text h1 {
+    font-size: 32px !important;
+    margin-top: 10px !important;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    text-align: center;
+  }
+
+  .column-text h2 {
+    font-size: 18px !important;
+    padding-left: 0 !important;
+    text-align: center;
+  }
+
+  /* Footer */
+  footer {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .gear-wrapper {
+    margin-top: 0;
+  }
+
+  .img-stack {
+    margin-top: 0;
+    width: 80px;
+    height: 80px;
+  }
+
+  .footer-text {
+    align-items: center;
+    margin-top: 0;
+  }
+
+  footer h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+
+  footer h4 {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+  }
+
+  /* Address Box */
+  .footer-text > div {
+    width: 100%;
+    max-width: 260px;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .footer-text p {
+    line-height: 1.4;
+  }
+}
