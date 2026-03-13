@@ -71,7 +71,7 @@ let frameIndex = 0;
 let cursorInterval = null;
 
 base.addEventListener("mouseenter", () => {
-  const frameTime = 2000 / crankFrames.length; // 2 seconds total
+  const frameTime = 1000 / crankFrames.length; // 1 seconds total
 
   cursorInterval = setInterval(() => {
     document.body.style.cursor = `url(${crankFrames[frameIndex]}) 24 24, auto`;
