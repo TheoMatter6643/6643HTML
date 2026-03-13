@@ -194,6 +194,8 @@ footer > img {
   width: auto;
   height: auto;
   text-align: center;
+  margin: 0px;
+  padding: 20px;
 }
 
 .sponsor-box h1 {
