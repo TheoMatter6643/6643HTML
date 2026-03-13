@@ -1,5 +1,8 @@
 @media (max-width: 700px) {
 
+  img {
+    border-radius: 20px;
+  }
   header {
   display: flex;
   align-items: center;
@@ -17,7 +20,7 @@
 
   header img {
     height: 30px;
-    width: 30px;
+    width: auto;
   }
 
   header nav {
@@ -36,7 +39,7 @@
 
   .hero img {
     width: 90vw;
-    max-width: 350px;
+    height: auto;
     padding: 0;
     margin: 20px 0 0 0;
   }
