@@ -61,10 +61,14 @@ a:hover {
 }
 
 .hero img {
-  width: 560px;
-  height: 350px;
+  width: 600px;
+  height: auto;
   border-radius: 20px;
   object-fit: cover;
+}
+
+.hero h1 {
+  font-size: 55px;
 }
 
 .column-text {
