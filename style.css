@@ -58,6 +58,7 @@ a:hover {
   align-items: center;
   gap: 40px; /* space between image and text */
   padding: 20px 0;
+  font-weight: normal;
 }
 
 .hero img {
@@ -65,6 +66,11 @@ a:hover {
   height: auto;
   border-radius: 20px;
   object-fit: cover;
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 0 40px;
+  margin: 64px auto;
 }
 
 .hero h1 {
