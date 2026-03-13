@@ -187,3 +187,33 @@ footer > img {
   margin: 0 auto;
   padding: 0 0 20px 20px;
 }
+
+.sponsor-box {
+  border-radius: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  width: 80%;
+  height: auto;
+}
+
+.platinum-bolt {
+  background: #afdfff;
+}
+.zirconium-bolt {
+  background: #fff7af;
+}
+
+.titanium-bolt {
+  background: #929292;
+}
+
+.silver-bolt {
+  background: #d8d8d8;
+}
+
+.chromium-bolt {
+  background: #eeeeee;
+}
+
+.iron-bolt {
+  background: #ffffff;
+}
