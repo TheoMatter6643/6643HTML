@@ -62,14 +62,6 @@ a:hover {
   align-items: start;
 }
 
-@media (min-width: 600px) {
-  .column {
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    align-items: center;
-  }
-}
-
 .column img {
   width: 100%;
   height: auto;
