@@ -155,10 +155,6 @@ footer > img {
   margin-top: -150px;
 }
 
-.img-stack:hover {
-  cursor: url('Photos/crank/1.png') 24 24, auto;
-}
-
 .img-stack .base {
   position: absolute;
   top: 0;
