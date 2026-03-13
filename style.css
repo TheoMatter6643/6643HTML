@@ -53,24 +53,24 @@ a:hover {
   font-size: 14px;
 }
 
-/* Column Layout */
-.column {
-  display: grid;
-  grid-template-columns: 1fr;
-  margin: 64px auto;
-  padding: 0 40px;
-  align-items: start;
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 40px; /* space between image and text */
+  padding: 20px 0;
 }
 
-.column img {
-  width: 100%;
-  height: auto;
+.hero img {
+  width: 560px;
+  height: 350px;
+  border-radius: 20px;
   object-fit: cover;
 }
 
 .column-text {
-  text-align: left;
-  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 header {
