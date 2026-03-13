@@ -43,6 +43,8 @@
   </div>
 </footer>
 <script>
+<script>
+/* Your existing hover class code */
 const logo = document.querySelector('.img-stack');
 
 logo.addEventListener('mouseenter', () => {
@@ -53,19 +55,19 @@ logo.addEventListener('mouseleave', () => {
   document.body.classList.remove('logo-hover');
 });
 
-const base = document.querySelector(".img-stack .base");
+/* === Animated Cursor Code === */
 
-const crankFrames = [
-  "Photos/crank/1.png",
-  "Photos/crank/2.png",
-  "Photos/crank/3.png",
-  "Photos/crank/4.png",
-  "Photos/crank/5.png",
-  "Photos/crank/6.png",
-  "Photos/crank/7.png",
-  "Photos/crank/8.png",
-  "Photos/crank/9.png"
-];
+/* Trigger animation when hovering anywhere on the stack */
+const base = document.querySelector(".img-stack");
+
+/* Number of frames you have (change this to your real number) */
+const totalFrames = 9;
+
+/* Build the list of frame paths automatically */
+const crankFrames = [];
+for (let i = 1; i <= totalFrames; i++) {
+  crankFrames.push(`Photos/crank/${i}.png`);
+}
 
 let frameIndex = 0;
 let cursorInterval = null;
@@ -85,6 +87,8 @@ base.addEventListener("mouseleave", () => {
   frameIndex = 0;
   document.body.style.cursor = "auto";
 });
+</script>
+
 </script>
 </body>
 </html>
