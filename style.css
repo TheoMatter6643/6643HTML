@@ -196,6 +196,12 @@ footer > img {
   text-align: center;
 }
 
+.sponsor-box h1 {
+  font-size: 25px;
+}
+.sponsor-box h3 {
+  font-size: 20px;
+}
 .platinum-bolt {
   background: #afdfff;
 }
