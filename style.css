@@ -156,7 +156,7 @@ footer > img {
 }
 
 .img-stack:hover {
-  cursor: url('Photos/crank.png') 24 24, auto;
+  cursor: url('Photos/crank.gif') 24 24, auto;
 }
 
 .img-stack .base {
