@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: space-between;
   background-color: #4b3995;
-  height: 90px;
+  height: 40px;
   width: calc(100% + 40px);
   margin-left: -20px;
   margin-right: -20px;
@@ -16,41 +16,48 @@
 
 
   header img {
-    height: 70px;
-    width: 70px;
+    height: 30px;
+    width: 30px;
   }
 
   header nav {
-    gap: 16px;
+    gap: 10px;
     translate: 0;
   }
 
   .column {
     padding: 0 10px;
     margin: 20px auto;
+    grid-template-columns: 1fr;
   }
 
   .column-text h1 {
-    font-size: 32px !important;
+    font-size: 22px !important;
     margin-top: 10px !important;
     padding-left: 0 !important;
     margin-left: 0 !important;
     text-align: center;
+    order: 1;
   }
 
   .column-text h2 {
-    font-size: 18px !important;
+    font-size: 12px !important;
     padding-left: 0 !important;
     text-align: center;
+    order: 2;
   }
 
+  .column img {
+    width: 100%;
+    order: 3;
+  }
   footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #EDE6FF;
   height: 300px;
-  width: calc(100% + 40px);
+  width: 100%;
   margin-left: -20px;
   margin-right: -20px;
   margin-top: 20px;
