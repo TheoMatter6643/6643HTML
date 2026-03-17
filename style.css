@@ -153,6 +153,17 @@ footer > img {
   width: 100px;
   height: 100px;
 }
+
+.address {
+  color: #6e6e6e;
+  margin: 0px;
+  border: 2px solid #D8D0F2;
+  background: #D8D0F2;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 10px;
+  padding: 5px;
+}
 /* Container holds the stacked images */
 .img-stack {
   position: relative;
