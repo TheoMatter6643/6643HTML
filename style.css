@@ -66,12 +66,11 @@ a:hover {
   height: auto;
   border-radius: 20px;
   object-fit: cover;
-  display: flex;
-  align-items: flex-start;
-  gap: 40px;
-  padding: 0 40px;
+  padding: 0;
   margin: 64px auto;
+  display: block;
 }
+
 
 .hero h1 {
   font-size: 55px;
