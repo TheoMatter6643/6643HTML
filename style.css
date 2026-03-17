@@ -92,7 +92,7 @@ header {
   display: flex;
   align-items: center;
   background-color: #4b3995;
-  height: 90px;
+  height: 130px;
   border-radius: 20px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.25);
   margin-bottom: 50px;
@@ -100,8 +100,8 @@ header {
 
 /* Logo */
 header img {
-  height: 80px;
-  width: 80px;
+  height: 120px;
+  width: 120px;
 }
 
 /* Navigation */
@@ -115,7 +115,7 @@ header nav a {
   padding: 6px 10px;
   border-radius: 6px;
   transition: 0.2s ease;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 header nav a:hover {
