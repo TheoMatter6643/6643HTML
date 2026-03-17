@@ -33,7 +33,7 @@
  </div>
  </div>
   <div class="footer-text">
-  <h3 style="margin-top: -120px; margin-right: 1200px;">Walnuts and Bolts</h3>
+  <h3 style="margin-top: -120px; margin-right: 1100px;">Walnuts and Bolts</h3>
   <h4 style="margin-top: -30px; margin-left: 0px; margin-bottom: 25px;">Team 6643</h4>
     
   <div style="color: #6e6e6e; margin: 0px; border: 2px solid #D8D0F2; background: #D8D0F2; width: fit-content; height: fit-content; border-radius: 10px; padding: 5px;">
@@ -54,12 +54,9 @@ logo.addEventListener('mouseleave', () => {
   document.body.classList.remove('logo-hover');
 });
 
-/* === Animated Cursor Code === */
 
-/* Trigger animation when hovering anywhere on the stack */
 const base = document.querySelector(".img-stack");
 
-/* Number of frames you have (change this to your real number) */
 const totalFrames = 9;
 
 /* Build the list of frame paths automatically */
@@ -72,7 +69,7 @@ let frameIndex = 0;
 let cursorInterval = null;
 
 base.addEventListener("mouseenter", () => {
-  const frameTime = 1000 / crankFrames.length; // 1 seconds total
+  const frameTime = 1000 / crankFrames.length; // 1 second total
 
   cursorInterval = setInterval(() => {
     document.body.style.cursor = `url(${crankFrames[frameIndex]}) 24 24, auto`;
