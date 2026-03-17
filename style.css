@@ -74,6 +74,12 @@ a:hover {
 
 .hero h1 {
   font-size: 55px;
+  font-weight: normal;
+}
+
+.hero h2 {
+  font-size: 40px;
+  font-weight: normal;
 }
 
 .column-text {
