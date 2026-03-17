@@ -91,7 +91,6 @@ a:hover {
 header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   background-color: #4b3995;
   height: 90px;
   border-radius: 20px;
@@ -116,7 +115,6 @@ header nav a {
   padding: 6px 10px;
   border-radius: 6px;
   transition: 0.2s ease;
-  translate: -600px;
   font-size: 16px;
 }
 
