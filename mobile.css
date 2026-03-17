@@ -1,4 +1,7 @@
 @media (max-width: 700px) {
+  html {
+    text-align: center;
+  }
 
   img {
     border-radius: 20px;
