@@ -54,21 +54,23 @@ a:hover {
 
 .hero {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
+  background-image: url("Photos/Robot.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
 }
 
-
-.hero img {
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  padding: 0;
-  display: block;
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
 }
+
 
 
 .hero h1 {
@@ -97,6 +99,7 @@ header {
   background-color: transparent;
   transition: background-color 0.4s ease;
   display: flex;
+  padding: 12px 20px;
 }
 
 header.scrolled {
