@@ -117,7 +117,6 @@ header {
   transition: background-color 1s ease;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding: 12px 20px;
   gap: 32px;
 }
