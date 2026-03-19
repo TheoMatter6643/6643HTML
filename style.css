@@ -63,6 +63,7 @@ a:hover {
   position: relative;
   padding: 0px;
   margin: 0px;
+  z-index: 0;
 }
 
 .hero::before {
