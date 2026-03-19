@@ -116,7 +116,7 @@ header {
   height: 80px;
   z-index: 1000;
   background-color: transparent;
-  transition: background-color 1s ease;
+  transition: background-color .6s ease;
   display: flex;
   align-items: center;
   padding: 12px 20px;
