@@ -82,6 +82,7 @@ a:hover {
   color: white;
   padding: 0px;
   margin: 0px;
+  z-index: 2;
 }
 
 
