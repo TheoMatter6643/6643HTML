@@ -146,13 +146,13 @@ header nav a {
   padding: 6px 10px;
   border-radius: 6px;
   transition: 0.2s ease;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 header nav a:hover {
   color: #ffffff;
   background-color: #A08FFF;
-  font-size: 16px;
+  font-size: 20px;
   transform: scale(1.08);
 }
 footer {
