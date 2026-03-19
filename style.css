@@ -113,7 +113,7 @@ header {
   position: fixed;
   top: 0;
   width: 100vw;
-  height: 90px;
+  height: 85px;
   z-index: 1000;
   background-color: transparent;
   transition: background-color 1s ease;
