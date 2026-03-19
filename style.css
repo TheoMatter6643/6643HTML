@@ -158,7 +158,7 @@ header nav a:hover {
 
 .carbon-fiber {
   width: 100vw;
-  height: 100px;
+  height: 150px;
   background-image:
     linear-gradient(to bottom, rgba(249, 240, 255, 0) 0%, #f9f0ff 100%),
     url("Photos/CarbonFiber.png");
