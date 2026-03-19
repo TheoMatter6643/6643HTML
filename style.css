@@ -114,6 +114,7 @@ header {
   transition: background-color 1s ease;
   display: flex;
   padding: 12px 20px;
+  gap: 32px;
 }
 
 header.scrolled {
