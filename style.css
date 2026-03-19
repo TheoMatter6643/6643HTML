@@ -113,7 +113,7 @@ header {
   position: fixed;
   top: 0;
   width: 100vw;
-  height: 90px;
+  height: 80px;
   z-index: 1000;
   background-color: transparent;
   transition: background-color 1s ease;
@@ -130,8 +130,8 @@ header.scrolled {
 
 /* Logo */
 header img {
-  height: 90px;
-  width: 90px;
+  height: 75px;
+  width: 75px;
 }
 
 /* Navigation */
@@ -146,13 +146,13 @@ header nav a {
   padding: 6px 10px;
   border-radius: 6px;
   transition: 0.2s ease;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 header nav a:hover {
   color: #ffffff;
   background-color: #A08FFF;
-  font-size: 20px;
+  font-size: 16px;
   transform: scale(1.08);
 }
 footer {
