@@ -80,6 +80,7 @@ a:hover {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  align-items: center; 
   color: white;
   padding: 0px;
   margin: 0px;
@@ -112,6 +113,7 @@ header {
   position: fixed;
   top: 0;
   width: 100vw;
+  height: 90px;
   z-index: 1000;
   background-color: transparent;
   transition: background-color 1s ease;
