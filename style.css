@@ -155,6 +155,15 @@ header nav a:hover {
   font-size: 16px;
   transform: scale(1.08);
 }
+
+.carbon-fiber {
+  width: 100vw;
+  height: 100px;
+  background-image:
+    linear-gradient(to bottom, rgba(249, 240, 255, 0) 0%, #f9f0ff 100%),
+    url("Photos/CarbonFiber.png");
+  background-size: cover;
+}
 footer {
   display: flex;
   align-items: center;
