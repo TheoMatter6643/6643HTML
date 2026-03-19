@@ -41,5 +41,56 @@
 </div>
   </div>
 </footer>
+<script>
+const logo = document.querySelector('.img-stack');
+
+logo.addEventListener('mouseenter', () => {
+  document.body.classList.add('logo-hover');
+});
+
+logo.addEventListener('mouseleave', () => {
+  document.body.classList.remove('logo-hover');
+});
+
+
+const base = document.querySelector(".img-stack");
+
+const totalFrames = 9;
+
+/* Build the list of frame paths automatically */
+const crankFrames = [];
+for (let i = 1; i <= totalFrames; i++) {
+  crankFrames.push(`Photos/crank/${i}.png`);
+}
+
+let frameIndex = 0;
+let cursorInterval = null;
+
+base.addEventListener("mouseenter", () => {
+  const frameTime = 1000 / crankFrames.length; // 1 second total
+
+  cursorInterval = setInterval(() => {
+    document.body.style.cursor = `url(${crankFrames[frameIndex]}) 24 24, auto`;
+    frameIndex = (frameIndex + 1) % crankFrames.length;
+  }, frameTime);
+});
+
+base.addEventListener("mouseleave", () => {
+  clearInterval(cursorInterval);
+  cursorInterval = null;
+  frameIndex = 0;
+  document.body.style.cursor = "auto";
+});
+  
+  const header = document.querySelector("header");
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 30) {
+      header.classList.add("scrolled");
+    } else {
+      header.classList.remove("scrolled");
+    }
+  });
+</script>
 </body>
 </html>
