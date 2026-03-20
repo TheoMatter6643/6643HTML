@@ -94,6 +94,7 @@ a:hover {
   font-weight: bold;
   text-align: center;
   color: #FFFFFF;
+  white-space: nowrap;
 }
 
 .hero h2 {
