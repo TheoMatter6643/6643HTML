@@ -82,22 +82,23 @@ footer {
     flex-direction: column;
     height: auto;
     padding: 20px;
-    text-align: center;
     gap: 20px;
   }
 
   .gear-wrapper {
+    text-align: left; 
     margin-top: 0;
   }
 
   .img-stack {
+    text-align: left;
     margin-top: 0;
     width: 80px;
     height: 80px;
   }
 
   .footer-text {
-    align-items: center;
+    text-align: left;
     margin-top: 0;
   }
 
