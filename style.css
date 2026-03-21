@@ -254,7 +254,7 @@ footer > img {
 
 /* Text Block Layout */
 .text {
-  display: flex;
+  display: block;
   flex-direction: column;
   align-items: center;
   gap: 16px;
