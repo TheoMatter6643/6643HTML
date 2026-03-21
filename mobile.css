@@ -97,6 +97,7 @@
   .footer-text {
     text-align: left;
     margin-top: 0;
+    display: block;
   }
 
   footer h3 {
