@@ -161,13 +161,13 @@ header nav a:hover {
   width: 100vw;
   height: 200px;
   background-image:
-    linear-gradient(to bottom, rgba(249, 240, 255, 0) 0%, #f9f0ff 100%),
-    url("Photos/Blueprint.png");
+  linear-gradient(to bottom, rgba(249, 240, 255, 0) 0%, #f9f0ff 100%),
+  url("Photos/Blueprint.png");
   background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #333333;
+  color: #FFFFFF;
   font-size: 60px;
   margin: 0;
 }
