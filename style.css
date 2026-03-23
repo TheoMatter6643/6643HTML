@@ -167,6 +167,8 @@ header nav a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: -10px;
+  margin-left: -10px;
 }
 
 .carbon-fiber h1 {
