@@ -40,14 +40,14 @@ img {
 }
 
 /* Links */
-a {
+a, a:visited {
   display: inline-block;
   background: #bcb4cb;
   color: #333333;
   border-radius: 10px;
   padding: 10px;
-  text-decoration: none;
-  font-weight: normal;
+  text-decoration: none !important;
+  font-weight: normal !important;
 }
 
 a:hover {
@@ -116,7 +116,7 @@ header {
   position: fixed;
   top: 0;
   width: 100vw;
-  height: 90px;
+  height: 70px;
   z-index: 1000;
   background-color: transparent;
   transition: background-color .6s ease;
@@ -133,8 +133,8 @@ header.scrolled {
 
 /* Logo */
 header img {
-  height: 90px;
-  width: 90px;
+  height: 70px;
+  width: 70px;
 }
 
 /* Navigation */
@@ -152,8 +152,8 @@ header nav a {
   border-radius: 6px;
   transition: 0.2s ease;
   font-size: 16px;
-  border-radius: 0px;
-  background-color: transparent;
+  border-radius: 0px !important;
+  background: transparent !important; 
 }
 
 header nav a:hover {
