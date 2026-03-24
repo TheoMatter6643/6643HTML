@@ -312,3 +312,14 @@ footer > img {
 .iron-bolt {
   background: #ffffff;
 }
+
+.stats {
+  color: #ffffff;
+  margin: 0px;
+  border: 2px solid #D8D0F2;
+  background: #D8D0F2;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 10px;
+  padding: 5px;
+}
