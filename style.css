@@ -45,7 +45,7 @@ a {
   background: #bcb4cb;
   color: #333333;
   border-radius: 10px;
-  padding: 10px
+  padding: 10px;
   text-decoration: none;
   font-weight: normal;
 }
@@ -152,6 +152,8 @@ header nav a {
   border-radius: 6px;
   transition: 0.2s ease;
   font-size: 16px;
+  border-radius: 0px;
+  background-color: transparent;
 }
 
 header nav a:hover {
