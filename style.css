@@ -314,10 +314,10 @@ footer > img {
 }
 
 .stats {
-  color: #616161;
+  color: ##2E2638;
   margin: 0px;
-  border: 2px solid #d79cff; /* 9966ff */
-  background: #d79cff;
+  border: 2px solid #A79EB5;
+  background: #A79EB5;
   width: fit-content;
   height: fit-content;
   border-radius: 10px;
