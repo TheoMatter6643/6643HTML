@@ -7,16 +7,7 @@
   <link rel="icon" type="image/x-icon" href="Photos/TeamLogo.svg">
 </head>
 <body>
-<header>
-    <img src="Photos/6643Logo.png" alt="Team Logo"/>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="sponsors.html">Sponsors</a>
-    <a href="fll.html">FLL</a>
-    <a href="photogallery.html">Photos</a>
-  </nav>
-  </header>
+<div id="header"></div>
 <div class="carbon-fiber"></div>
 <div class="text">
   <h1>Sponsors</h1>
@@ -129,6 +120,12 @@ base.addEventListener("mouseleave", () => {
       header.classList.remove("scrolled");
     }
   });
+
+  fetch("header.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("header").innerHTML = data;
+    });
 </script>
 </body>
 </html>
