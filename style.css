@@ -32,8 +32,8 @@ h3, h4, h5, h6, p {
 
 /* Images */
 img {
-  width: 600px;
-  height: auto;
+  width: auto;
+  height: 100vh;
   border-radius: 20px;
   display: block;
   padding: 10px;
@@ -41,16 +41,17 @@ img {
 
 /* Links */
 a {
-  color: #7F6EE8;
+  display: inline-block;
+  background: #bcb4cb;
+  color: #333333;
+  border-radius: 10px;
   text-decoration: none;
-  font-size: 14px;
   font-weight: normal;
-  transition: 0.2s ease;
 }
 
 a:hover {
-  color: #A08FFF;
-  font-size: 14px;
+  color: #444444;
+  background: #a096b6;
 }
 
 .hero {
@@ -316,8 +317,8 @@ footer > img {
 .stats {
   color: #312d39;
   margin: 0px;
-  border: 2px solid #bcb4cb;
-  background: #bcb4cb;
+  border: 2px solid #9387ab;
+  background: #9387ab;
   width: fit-content;
   height: fit-content;
   border-radius: 10px;
