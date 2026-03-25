@@ -42,7 +42,7 @@ img {
 /* Links */
 a, a:visited {
   display: inline-block;
-  background: #bcb4cb;
+  background: #2f235c;
   color: #333333;
   border-radius: 10px;
   padding: 10px;
@@ -153,7 +153,7 @@ header nav a {
   transition: 0.2s ease !important;
   font-size: 16px !important;
   border-radius: 0px !important;
-  background: transparent !important; 
+  background-color: transparent !important; 
 }
 
 header nav a:hover {
@@ -322,8 +322,8 @@ footer > img {
 .stats {
   color: #312d39;
   margin: 0px;
-  border: 2px solid #9387ab;
-  background: #9387ab;
+  border: 2px solid #ada5c0;
+  background: #ada5c0;
   width: fit-content;
   height: fit-content;
   border-radius: 10px;
