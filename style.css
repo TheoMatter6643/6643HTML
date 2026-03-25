@@ -43,7 +43,7 @@ img {
 a, a:visited {
   display: inline-block;
   background: #2f235c;
-  color: #333333;
+  color: #ffffff;
   border-radius: 10px;
   padding: 10px;
   text-decoration: none !important;
@@ -51,7 +51,7 @@ a, a:visited {
 }
 
 a:hover {
-  color: #444444;
+  color: #eeeeee;
   background: #a096b6;
 }
 
