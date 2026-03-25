@@ -159,8 +159,12 @@ header nav a {
 header nav a:hover {
   color: #ffffff;
   background-color: #A08FFF;
+  border-radius: 6px;
+  padding: 6px 10px; 
+  background-color: #A08FFF;
   font-size: 16px;
   transform: scale(1.08);
+  
 }
 
 .carbon-fiber {
