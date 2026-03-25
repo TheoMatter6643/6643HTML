@@ -42,8 +42,8 @@ img {
 /* Links */
 a, a:visited {
   display: inline-block;
-  background: #2f235c;
-  color: #ffffff;
+  background: #a096b6;
+  color: #333333;
   border-radius: 10px;
   padding: 10px;
   text-decoration: none !important;
@@ -51,8 +51,8 @@ a, a:visited {
 }
 
 a:hover {
-  color: #eeeeee;
-  background: #a096b6;
+  color: #303030;
+  background: #8c82a3;
 }
 
 .hero {
