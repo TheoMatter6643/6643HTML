@@ -157,13 +157,13 @@ header nav a {
 }
 
 header nav a:hover {
-  color: #ffffff;
-  background-color: #A08FFF;
-  border-radius: 6px;
-  padding: 6px 10px; 
-  background-color: #A08FFF;
-  font-size: 16px;
-  transform: scale(1.08);
+  color: #ffffff !important;
+  background-color: #A08FFF !important;
+  border-radius: 10px !important;
+  padding: 6px 10px !important; 
+  background-color: #A08FFF !important;
+  font-size: 16px !important;
+  transform: scale(1.08) !important;
   
 }
 
