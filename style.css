@@ -124,6 +124,7 @@ header {
   align-items: center;
   padding: 12px 20px;
   gap: 32px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
 }
 
 header.scrolled {
