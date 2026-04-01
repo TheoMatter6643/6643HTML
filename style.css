@@ -134,8 +134,7 @@ header {
   position: fixed;
   top: 0;
   width: 100vw;
-  min-height: 8vh;
-  height: auto;
+  height: 8vh;
   z-index: 1000;
   background-color: transparent;
   transition: background-color .6s ease;
