@@ -173,7 +173,7 @@ header nav a {
   font-size: 14px !important;
   background-color: transparent !important; 
   box-shadow: 0 2px 6px rgba(0,0,0,0) !important;
-  padding: 0px 10px;
+  padding: 0px 10px !important;
 }
 
 header nav a:hover {
@@ -186,7 +186,7 @@ header nav a:hover {
   font-size: 14px !important;
   transform: scale(1.08) !important;
   box-shadow: 0 2px 6px rgba(0,0,0,0) !important;
-  padding: 0px 10px;
+  padding: 0px 10px !important;
 }
 
 .carbon-fiber {
