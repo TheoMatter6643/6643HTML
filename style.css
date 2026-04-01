@@ -134,13 +134,12 @@ header {
   position: fixed;
   top: 0;
   width: 100vw;
-  height: 8vh;
+  height: 12vh;
   z-index: 1000;
   background-color: transparent;
   transition: background-color .6s ease;
   display: flex;
   align-items: center;
-  padding: 12px 20px;
   gap: 32px;
   box-shadow: 0 2px 6px rgba(0,0,0,0);
 }
@@ -153,8 +152,8 @@ header.scrolled {
 
 /* Logo */
 header img {
-  height: 70px;
-  width: 70px;
+  height: 10vh;
+  width: 10vh;
 }
 
 /* Navigation */
@@ -169,7 +168,7 @@ header nav a {
   display: flex !important;
   align-items: center !important;
   color: #ffffff !important;
-  padding: 6px 10px !important;
+  padding: 0px 10px !important;
   border-radius: 10px !important;
   transition: 0.2s ease !important;
   font-size: 16px !important;
@@ -183,7 +182,7 @@ header nav a:hover {
   color: #ffffff !important;
   background-color: #A08FFF !important;
   border-radius: 10px !important;
-  padding: 6px 10px !important; 
+  padding: 0px 10px !important; 
   background-color: #A08FFF !important;
   font-size: 16px !important;
   transform: scale(1.08) !important;
