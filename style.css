@@ -168,8 +168,7 @@ header nav a {
   display: flex !important;
   align-items: center !important;
   color: #ffffff !important;
-  padding: 0px 10px !important;
-  border-radius: 8px !important;
+  border-radius: 10px !important;
   transition: 0.2s ease !important;
   font-size: 10px !important;
   background-color: transparent !important; 
@@ -181,8 +180,7 @@ header nav a:hover {
   alight-items: center !important;
   color: #ffffff !important;
   background-color: #A08FFF !important;
-  border-radius: 8px !important;
-  padding: 0px 10px !important; 
+  border-radius: 12px !important;
   background-color: #A08FFF !important;
   font-size: 10px !important;
   transform: scale(1.08) !important;
