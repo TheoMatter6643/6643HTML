@@ -167,6 +167,8 @@ header nav {
 }
 
 header nav a {
+  display: flex !important;
+  align-items: center !important;
   color: #ffffff !important;
   padding: 6px 10px !important;
   border-radius: 10px !important;
@@ -177,6 +179,8 @@ header nav a {
 }
 
 header nav a:hover {
+  display: flex !important;
+  alight-items: center !important;
   color: #ffffff !important;
   background-color: #A08FFF !important;
   border-radius: 10px !important;
