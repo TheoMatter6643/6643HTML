@@ -134,7 +134,7 @@ header {
   position: fixed;
   top: 0;
   width: 100vw;
-  height: 18vh;
+  height: 14vh;
   z-index: 1000;
   background-color: transparent;
   transition: background-color .6s ease;
@@ -152,8 +152,8 @@ header.scrolled {
 
 /* Logo */
 header img {
-  height: 17vh;
-  width: 17vh;
+  height: 13vh;
+  width: 13vh;
 }
 
 /* Navigation */
