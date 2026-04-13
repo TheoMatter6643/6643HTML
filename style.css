@@ -325,9 +325,11 @@ footer > img {
   margin: 0px;
 }
 .bluealliance {
+  padding: 10px 25px;
   background-color: #4252B0;
 }
 .bluealliance:hover {
+  padding: 10px 25px;
   background-color: #313d81;
 }
 .platinum-bolt {
