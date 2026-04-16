@@ -124,6 +124,13 @@ a:hover {
   color: #FFFFFF;
 }
 
+.columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
 .column-text {
   display: flex;
   flex-direction: column;
@@ -297,13 +304,6 @@ footer > img {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 0 20px 20px;
-}
-
-.columns {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
-  align-items: center;
 }
 
 .sponsor-box {
