@@ -33,7 +33,7 @@ h3, h4, h5, h6, p {
 /* Images */
 img {
   width: auto;
-  height: 88vh;
+  height: auto;
   border-radius: 20px;
   display: block;
   padding: 10px;
