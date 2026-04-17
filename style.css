@@ -34,6 +34,7 @@ h3, h4, h5, h6, p {
 img {
   width: auto;
   height: auto;
+  max-height: 88vh;
   border-radius: 20px;
   display: block;
   padding: 10px;
