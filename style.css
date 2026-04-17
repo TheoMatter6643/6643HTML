@@ -33,7 +33,7 @@ h3, h4, h5, h6, p {
 /* Images */
 img {
   width: auto;
-  height: 100vh;
+  height: 88vh;
   border-radius: 20px;
   display: block;
   padding: 10px;
@@ -128,7 +128,7 @@ a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 40px;
-  align-items: center;
+  align-items: start;
 }
 
 .column-text {
