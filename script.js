@@ -60,3 +60,11 @@ function initFooterScripts() {
     document.body.style.cursor = "auto";
   });
 }
+  const btn = document.getElementById("menuButton");
+  const menu = document.getElementById("mobileMenu");
+
+  btn.addEventListener("click", () => {
+    btn.classList.toggle("open");
+    menu.classList.toggle("open");
+  });
+
