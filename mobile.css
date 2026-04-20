@@ -21,7 +21,7 @@
 
 
   header img {
-    width: 20px
+    width: 20px;
     height: 20px;
   }
 
@@ -49,6 +49,13 @@
     font-size: 28px;
     margin: 0;
   }
+
+  .columns {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  align-items: start;
+}
 
   .column-text {
     gap: 6px;
