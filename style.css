@@ -202,14 +202,12 @@ header nav a:hover {
 
 .carbon-fiber {
   width: 100vw;
-  height: 250px;
   background-image:
   linear-gradient(to bottom, rgba(249, 240, 255, 0) 0%, #f9f0ff 100%),
   url("Photos/Head.png");
   background-repeat: repeat;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .carbon-fiber h1 {
@@ -220,6 +218,7 @@ header nav a:hover {
 
 footer {
   display: flex;
+  text-align: center;
   align-items: center;
   background-color: #EDE6FF;
   height: 300px;
