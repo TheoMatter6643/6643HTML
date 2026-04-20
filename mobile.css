@@ -46,15 +46,15 @@
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
   
-  .menu-btn.open span:nth-child(1) {
+  .menu-button.open span:nth-child(1) {
   transform: translateY(10px) rotate(45deg);
 }
 
-.menu-btn.open span:nth-child(2) {
+.menu-button.open span:nth-child(2) {
   opacity: 0;
 }
 
-.menu-btn.open span:nth-child(3) {
+.menu-button.open span:nth-child(3) {
   transform: translateY(-10px) rotate(-45deg);
 }
 
