@@ -28,6 +28,34 @@
   header nav {
     gap: 10px;
   }
+
+  .desktop-nav {
+    display: none; /* hide desktop nav */
+  }
+
+  .menu-img-btn {
+    display: block; /* show menu button */
+    background: none;
+    border: none;
+    padding: 0;
+  }
+
+  #menuIcon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .mobile-menu {
+    display: none; /* hidden until JS opens it */
+    flex-direction: column;
+    background: #4b3995;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .mobile-menu.open {
+    display: flex; /* show when JS toggles .open */
+  }
   
   .hero {
     flex-direction: column;
