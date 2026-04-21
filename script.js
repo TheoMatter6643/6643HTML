@@ -61,10 +61,16 @@ function initFooterScripts() {
   });
 }
   const btn = document.getElementById("menuButton");
-  const menu = document.getElementById("mobileMenu");
+const icon = document.getElementById("menuIcon");
+const menu = document.getElementById("mobileMenu");
 
-  btn.addEventListener("click", () => {
-    btn.classList.toggle("open");
-    menu.classList.toggle("open");
-  });
+let open = false;
+
+btn.addEventListener("click", () => {
+  open = !open;
+
+  icon.src = open ? "close.svg" : "Menu.png";
+
+  menu.classList.toggle("open", open);
+});
 
