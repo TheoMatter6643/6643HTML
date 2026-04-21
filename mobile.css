@@ -28,55 +28,7 @@
   header nav {
     gap: 10px;
   }
-
-  .menubutton {
-  width: 32px;
-  height: 24px;
-  display: flex;
-  flex-direction: column;
-  cursor: pointer;
-  z-index: 1001;
-}
-
-  .menubutton span {
-  display: block;
-  height: 4px;
-  background: #ffffff;
-  border-radius: 2px;
-  transition: transform 0.3s ease, opacity 0.3s ease;
-}
   
-  .menu-button.open span:nth-child(1) {
-  transform: translateY(10px) rotate(45deg);
-}
-
-.menu-button.open span:nth-child(2) {
-  opacity: 0;
-}
-
-.menu-button.open span:nth-child(3) {
-  transform: translateY(-10px) rotate(-45deg);
-}
-
-  .mobile-menu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  background: #4b3995;
-  padding: 20px;
-  transform: translateY(-100%);
-  transition: transform 0.3s ease;
-  z-index: 1000;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-  .mobile-menu.open {
-  transform: translateY(0);
-}
-
   .hero {
     flex-direction: column;
     align-items: center;
