@@ -69,7 +69,7 @@ let open = false;
 btn.addEventListener("click", () => {
   open = !open;
 
-  icon.src = open ? "close.svg" : "Menu.png";
+  icon.src = open ? "Photos/close.svg" : "Photos/Menu.png";
 
   menu.classList.toggle("open", open);
 });
