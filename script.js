@@ -27,6 +27,20 @@ function initHeaderScripts() {
       header.classList.remove("scrolled");
     }
   });
+
+const btn = document.getElementById("menuButton");
+const icon = document.getElementById("menuIcon");
+const menu = document.getElementById("mobileMenu");
+
+let open = false;
+
+btn.addEventListener("click", () => {
+  open = !open;
+
+  icon.src = open ? "Photos/close.svg" : "Photos/Menu.png";
+
+  menu.classList.toggle("open", open);
+});
 }
 
 
@@ -60,17 +74,4 @@ function initFooterScripts() {
     document.body.style.cursor = "auto";
   });
 }
-  const btn = document.getElementById("menuButton");
-const icon = document.getElementById("menuIcon");
-const menu = document.getElementById("mobileMenu");
-
-let open = false;
-
-btn.addEventListener("click", () => {
-  open = !open;
-
-  icon.src = open ? "Photos/close.svg" : "Photos/Menu.png";
-
-  menu.classList.toggle("open", open);
-});
 
