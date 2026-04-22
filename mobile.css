@@ -119,7 +119,6 @@
 footer {
   display: flex;
   text-align: center;
-  align-items: center;
   background-color: #EDE6FF;
   height: 300px;
   width: 80vw;
