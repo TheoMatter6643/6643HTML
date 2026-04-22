@@ -231,7 +231,7 @@ header nav a:hover {
 
 footer {
   display: flex;
-  text-align: center;
+  text-align: left;
   align-items: flex-start;
   background-color: #EDE6FF;
   height: 300px;
@@ -241,6 +241,7 @@ footer {
   color: #3a3a3a;
   gap: 20px;
   padding: 20px;
+  margin: 20px auto;
 }
 footer h3 {
   font-size: 20px;
