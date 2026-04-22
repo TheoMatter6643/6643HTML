@@ -232,14 +232,15 @@ header nav a:hover {
 footer {
   display: flex;
   text-align: center;
-  align-items: center;
+  align-items: flex-start;
   background-color: #EDE6FF;
   height: 300px;
   width: 80vw;
   box-shadow: 0 2px 6px rgba(0,0,0,0.25);
   border-radius: 20px;
-  margin: 20px;
   color: #3a3a3a;
+  gap: 20px;
+  padding: 20px;
 }
 footer h3 {
   font-size: 20px;
