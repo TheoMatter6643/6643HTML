@@ -40,7 +40,7 @@ icon.src = "Photos/Menu.png";
 btn.addEventListener("click", () => {
   open = !open;
 
-  icon.src = open ? "Photos/close.svg" : "Photos/Menu.png";
+  icon.src = open ? "Photos/Close.png" : "Photos/Menu.png";
 
   menu.classList.toggle("open", open);
 });
