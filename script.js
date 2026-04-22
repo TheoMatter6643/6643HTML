@@ -32,7 +32,10 @@ const btn = document.getElementById("menuButton");
 const icon = document.getElementById("menuIcon");
 const menu = document.getElementById("mobileMenu");
 
+if (!btn || !icon || !menu) return;
+
 let open = false;
+icon.src = "Photos/Menu.png";
 
 btn.addEventListener("click", () => {
   open = !open;
