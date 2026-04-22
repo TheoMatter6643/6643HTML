@@ -45,11 +45,19 @@
   }
 
   .mobile-menu {
-    display: none; /* hidden until JS opens it */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+    
+    display: none;
     flex-direction: column;
-    background: #4b3995;
-    padding: 20px;
+    padding: 100px 20px 20px;
     gap: 20px;
+    z-index: 999;
   }
 
   .mobile-menu.open {
