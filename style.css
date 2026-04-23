@@ -255,6 +255,7 @@ footer h4 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  line-height: 1.2;
 }
 footer > img {
   width: 100px;
