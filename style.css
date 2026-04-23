@@ -232,7 +232,6 @@ header nav a:hover {
 footer {
   display: flex;
   text-align: left;
-  align-items: flex-start;
   background-color: #EDE6FF;
   height: 300px;
   width: 80vw;
