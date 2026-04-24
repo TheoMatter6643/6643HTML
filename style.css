@@ -231,7 +231,7 @@ header nav a:hover {
 
 footer {
   display: flex;
-  text-align: left;
+  text-align: flex-start;
   align-items: flex-start;
   background-color: #EDE6FF;
   height: auto;
@@ -247,10 +247,14 @@ footer {
 footer h3 {
   font-size: 20px;
   color: #5A4F7A;
+  padding: 0px;
+  margin: 0px;
 }
 footer h4 {
   font-size: 16px;
   color: #8A7BAF;
+  padding: 0px;
+  margin: 0px;
 }
 .footer-text {
   display: flex;
