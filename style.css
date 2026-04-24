@@ -271,7 +271,7 @@ footer > img {
 
 .address {
   color: #6e6e6e;
-  margin: 0px;
+  margin-top: 5px;
   border: 2px solid #D8D0F2;
   background: #D8D0F2;
   width: fit-content;
