@@ -249,12 +249,14 @@ footer h3 {
   color: #5A4F7A;
   padding-bottom: 0px;
   margin-bottom: 0px;
+  line-height: 1.2;
 }
 footer h4 {
   font-size: 16px;
   color: #8A7BAF;
   padding-top: 0px;
   margin-top: 0px;
+  line-height: 1.2;
 }
 .footer-text {
   display: flex;
