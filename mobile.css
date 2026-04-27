@@ -48,7 +48,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 70vw;
+    width: 30vw;
     height: 100vh;
     background: rgba(75, 57, 149, 0.75);
     backdrop-filter: blur(8px);          
