@@ -47,6 +47,8 @@
   .mobile-menu {
     position: fixed;
     top: 0;
+    left: 50%;
+    transform: translateX(-50%);
     width: 70vw;
     height: 100vh;
     background: rgba(0, 0, 0, 0.6);
