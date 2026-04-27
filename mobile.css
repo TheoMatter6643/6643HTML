@@ -48,7 +48,6 @@
     position: fixed;
     top: 0;
     left: 0;
-    transform: translateX(-50%);
     width: 70vw;
     height: 100vh;
     background: rgba(75, 57, 149, 0.75);
