@@ -243,7 +243,7 @@ footer {
   padding: 20px;
   margin: 20px auto;
   line-height: 1.2;
-  flex-direction: column;
+  flex-direction: flex-start;
 }
 footer h3 {
   font-size: 20px;
@@ -268,6 +268,7 @@ footer h4 {
 footer > img {
   width: 100px;
   height: 100px;
+  align-items: flex-start;
 }
 
 .address {
@@ -281,7 +282,7 @@ footer > img {
   padding: 5px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.25);
   flex-direction: flex-start;
-  text-align: center;
+  text-align: flex-start;
 }
 /* Container holds the stacked images */
 .img-stack {
