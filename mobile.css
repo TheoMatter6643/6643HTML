@@ -62,7 +62,12 @@
   }
 
   .mobile-menu a {
+    display: inline-block;
     text-align: center;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px 20px;
   }
 
   .mobile-menu.open {
