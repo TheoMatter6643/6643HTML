@@ -48,17 +48,21 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 70vw;
     height: 100vh;
     background: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(4px);
-    
     display: none;
     flex-direction: column;
     padding: 20px;
     gap: 20px;
     z-index: 999;
     text-align: center;
+  }
+
+  .mobile-menu a {
+    text-align: center;
+    margin-top: 40px;
   }
 
   .mobile-menu.open {
