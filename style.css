@@ -272,6 +272,7 @@ footer > img {
 }
 
 .address {
+  display: block;
   color: #6e6e6e;
   margin-top: 5px;
   border: 2px solid #D8D0F2;
