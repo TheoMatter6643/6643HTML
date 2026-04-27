@@ -47,12 +47,12 @@
   .mobile-menu {
     position: fixed;
     top: 0;
-    left: 50%;
+    left: 0;
     transform: translateX(-50%);
-    width: 100vw;
+    width: 70vw;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(4px);
+    background: rgba(75, 57, 149, 0.75);
+    backdrop-filter: blur(8px);          
     display: none;
     flex-direction: column;
     padding: 20px;
