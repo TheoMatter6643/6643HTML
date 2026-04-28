@@ -243,7 +243,7 @@ footer {
   padding: 20px;
   margin: 20px auto;
   line-height: 1.2;
-  flex-direction: flex-start;
+  flex-direction: row;
 }
 footer h3 {
   font-size: 20px;
