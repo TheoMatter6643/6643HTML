@@ -243,7 +243,7 @@ footer {
   padding: 20px;
   margin: 20px auto;
   line-height: 1.2;
-  flex-direction: row;
+  flex-direction: column;
 }
 footer h3 {
   font-size: 20px;
@@ -269,6 +269,12 @@ footer > img {
   width: 100px;
   height: 100px;
   align-items: flex-start;
+}
+.footer-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
 }
 
 .address {
