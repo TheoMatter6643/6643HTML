@@ -232,7 +232,7 @@ header nav a:hover {
 footer {
   display: flex;
   text-align: flex-start;
-  align-items: center;
+  align-items: flex-start;
   background-color: #EDE6FF;
   height: auto;
   width: 80vw;
@@ -273,7 +273,7 @@ footer > img {
 .footer-header {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   gap: 20px;
 }
 
@@ -288,7 +288,7 @@ footer > img {
   padding: 5px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.25);
   flex-direction: flex-start;
-  text-align: flex-start;
+  text-align: left;
 }
 /* Container holds the stacked images */
 .img-stack {
