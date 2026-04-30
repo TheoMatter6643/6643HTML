@@ -150,7 +150,6 @@ footer h4 {
 .footer-text {
   display: flex;
   flex-direction: column;
-  margin-top: 45px;
 }
 footer > img {
   width: 100px;
