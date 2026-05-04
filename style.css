@@ -165,6 +165,7 @@ header.scrolled {
 header img {
   height: 10vh;
   width: 10vh;
+  padding-left: 5px;
 }
 
 /* Navigation */
