@@ -218,7 +218,7 @@ header nav a:hover {
 
 .carbon-fiber {
   width: 100vw;
-  height: auto;
+  min-height: 200px;
   background-image:
   linear-gradient(to bottom, rgba(249, 240, 255, 0) 0%, #f9f0ff 100%),
   url("Photos/Head.png");
@@ -232,6 +232,7 @@ header nav a:hover {
   color: #3A3450;
   font-size: 60px;
   margin: 0;
+  
 }
 
 footer {
