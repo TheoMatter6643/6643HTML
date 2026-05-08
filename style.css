@@ -339,6 +339,9 @@ footer > img {
   position: relative;
   width: 100px;
   height: 100px;
+  align-items: center;
+  text-align: center;
+  
 }
 .head-img-stack .base {
   position: absolute;
@@ -347,6 +350,8 @@ footer > img {
   width: 80px;
   height: 80px;
   z-index: 10;
+  align-items: center;
+  text-align: center;
 }
 
 .head-img-stack .gear {
@@ -356,10 +361,14 @@ footer > img {
   width: 80px;
   height: 80px;
   z-index: 1;
+  align-items: center;
+  text-align: center;
 }
 .head-gear-wrapper {
   position: relative;
   display: inline-block;
+  align-items: center;
+  text-align: center;
 }
 
 
