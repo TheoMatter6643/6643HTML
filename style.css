@@ -163,8 +163,8 @@ header.scrolled {
 
 /* Logo */
 header img {
-  height: 80px;
-  width: 80px;
+  height: 12vh;
+  width: 12vw;
   padding-left: 5px;
   border-radius: 0px;
 }
