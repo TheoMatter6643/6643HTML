@@ -303,16 +303,16 @@ footer > img {
 /* Container holds the stacked images */
 .img-stack {
   position: relative;
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
 }
 
 .img-stack .base {
   position: absolute;
   top: 0;
   left: 0;
-  width: 80px;
-  height: 80x;
+  width: 90px;
+  height: 90x;
   z-index: 10;
 }
 
@@ -320,8 +320,8 @@ footer > img {
   position: absolute;
   top: 0;
   left: 0;
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   z-index: 1;
 }
 .img-stack:hover .spin {
@@ -370,7 +370,7 @@ footer > img {
   text-align: center;
 }
 
-.header-logo-bg {
+.logo-bg {
   background: white;
   width: 12vw;
   height: 12vh;
