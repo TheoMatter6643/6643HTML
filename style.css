@@ -69,9 +69,12 @@ a:hover {
   background: #ada5c0;
   width: fit-content;
   height: fit-content;
+  max-width: 74px;
   border-radius: 10px;
   padding: 5px;
-  white-space: nowrap;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: normal;
 }
 .stats h2, h3, p {
   margin: 0px;
