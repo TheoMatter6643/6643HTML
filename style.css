@@ -239,7 +239,6 @@ header nav a:hover {
 
 footer {
   display: flex;
-  text-align: flex-start;
   align-items: flex-start;
   background-color: #EDE6FF;
   height: auto;
@@ -256,7 +255,7 @@ footer {
 footer h3 {
   font-size: 20px;
   color: #5A4F7A;
-  padding-bottom: 0px;
+  padding: 0px;
   margin: 0px;
   margin-bottom: 0px;
   line-height: 1.2;
@@ -264,7 +263,7 @@ footer h3 {
 footer h4 {
   font-size: 16px;
   color: #8A7BAF;
-  padding-top: 0px;
+  padding: 0px;
   margin: 0px;
   margin-top: 5px;
   line-height: 1.2;
@@ -289,13 +288,12 @@ footer > img {
 
 .address {
   color: #6e6e6e;
-  margin-top: 5px;
+  margin-top: 10px;
   border: 2px solid #D8D0F2;
   background: #D8D0F2;
   width: fit-content;
   height: fit-content;
   border-radius: 10px;
-  padding: 5px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.25);
   flex-direction: flex-start;
   text-align: left;
