@@ -164,7 +164,7 @@ header.scrolled {
 /* Logo */
 header img {
   height: auto;
-  width: 6vw;
+  width: 4vw;
   padding-left: 5px;
   border-radius: 0px;
 }
@@ -335,53 +335,6 @@ footer > img {
   from { transform: rotate(0deg); }
   to   { transform: rotate(360deg); }
 }
-.head-img-stack {
-  position: relative;
-  width: auto;
-  height: 11vh;
-  align-items: center;
-  text-align: center;
-}
-.head-img-stack .base {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: auto;
-  height: 11vh;
-  z-index: 10;
-  align-items: center;
-  text-align: center;
-}
-
-.head-img-stack .spin {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: auto;
-  height: 11vh;
-  z-index: 1;
-  align-items: center;
-  text-align: center;
-}
-.head-gear-wrapper {
-  position: relative;
-  display: inline-block;
-  align-items: center;
-  text-align: center;
-}
-
-.logo-bg {
-  background: white;
-  width: auto;
-  height: 12vh;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
-
 /* Text Block Layout */
 .text {
   display: flex;
