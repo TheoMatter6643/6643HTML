@@ -257,7 +257,8 @@ footer h3 {
   color: #5A4F7A;
   padding: 0px;
   margin: 0px;
-  margin-bottom: 0px;
+  margin-top: 15px;
+  margin-left: 5px;
   line-height: 1.2;
 }
 footer h4 {
@@ -266,6 +267,7 @@ footer h4 {
   padding: 0px;
   margin: 0px;
   margin-top: 5px;
+  margin-left: 5px;
   line-height: 1.2;
 }
 .footer-text {
@@ -288,12 +290,13 @@ footer > img {
 
 .address {
   color: #6e6e6e;
-  margin-top: 10px;
+  margin-top: 30px;
   border: 2px solid #D8D0F2;
   background: #D8D0F2;
   width: fit-content;
   height: fit-content;
   border-radius: 10px;
+  line-height: 1.5;
   box-shadow: 0 2px 6px rgba(0,0,0,0.25);
   flex-direction: flex-start;
   text-align: left;
