@@ -377,6 +377,7 @@ footer > img {
 .bluealliance:hover {
   padding: 10px 21px;
   background-color: #313d81 !important;
+  text-align: center;
 }
 .platinum-bolt {
   background: #afdfff;
