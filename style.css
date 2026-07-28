@@ -350,7 +350,7 @@ footer > img {
   padding: 0 0 20px 20px;
 }
 
-.sponsor-box {
+.colored-box {
   display: grid;
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
@@ -362,11 +362,11 @@ footer > img {
   gap: 10px;
 }
 
-.sponsor-box h1 {
+.colored-box h1 {
   font-size: 25px;
   margin: 0px;
 }
-.sponsor-box h3 {
+.colored-box h3 {
   font-size: 18px;
   margin: 0px;
 }
