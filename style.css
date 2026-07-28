@@ -237,6 +237,8 @@ header nav a:hover {
   color: #F3E9FF;
   font-size: 60px;
   margin: 0;
+  text-align: center;
+  align-items: center;
   
 }
 
